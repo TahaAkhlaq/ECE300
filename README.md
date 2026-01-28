@@ -1,26 +1,27 @@
-# ECE211 Signal Processing
+# ECE300 Communication Theory
 
-This repository contains MATLAB coursework for **ECE211: Signal Processing** at The Cooper Union.
+This repository contains MATLAB coursework for **ECE300: Communication Theory** at The Cooper Union.
 
 ---
 
 ## Course Overview
 
-Signal processing fundamentals for continuous-time and discrete-time signals and systems, with emphasis on analysis in time and transform domains and practical implementation in MATLAB. Core tools include Fourier analysis, Laplace and z-transforms, frequency response, convolution, and representation of LTI systems via poles and zeros.
+Communication systems fundamentals covering signal representations, noise, modulation, and detection. The course emphasizes probabilistic modeling and performance analysis (e.g., SNR, BER) and uses MATLAB to simulate channel impairment, modulation/demodulation chains, and receiver decision rules.
 
 ---
 
 ## Topics
 
-- Signal representation and classification; energy and power signals
-- LTI systems: impulse response, convolution, eigenfunctions, frequency response
-- Fourier series and Fourier transform; spectra and filtering intuition
-- Laplace transform; transfer functions, poles/zeros, stability, transient response
-- Sampling and reconstruction concepts; aliasing and spectral replication
-- Discrete-time analysis: z-transform, DTFT, difference equations
-- Modulation concepts and spectral translation basics (signal mixing viewpoint)
-- Random signals and noise fundamentals (introductory treatment)
-- MATLAB-based analysis, simulation, and verification
+- Signals and spectra for communications; bandwidth and power tradeoffs
+- Noise and random processes; AWGN channel model
+- Linear modulation: AM/DSB/SSB (concepts) and coherent detection
+- Angle modulation: FM/PM fundamentals
+- Baseband digital modulation: PAM, ASK, PSK, QAM
+- Matched filtering and optimum detection in AWGN
+- Symbol error rate / bit error rate analysis and simulation
+- Sampling, pulse shaping, ISI, and basic equalization concepts
+- Link budgets and SNR-based performance metrics
+- MATLAB-based end-to-end simulation and verification
 
 ---
 
